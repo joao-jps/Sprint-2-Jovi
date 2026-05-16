@@ -1,0 +1,36 @@
+/* HEADER / NAVEGAÇÃO */
+    .nav-links li a:hover {
+      color: var(--branco);
+    }
+
+    .btn-nav:hover {
+      background-color: var(--azul-medio);
+    }
+
+
+    /* HERO (SEÇÃO PRINCIPAL) */
+    .btn-principal:hover {
+      background-color: #e6f1fb;
+    }
+
+    .btn-secundario:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+
+    /* SEÇÃO: PROBLEMAS */
+    .card:hover {
+      border-color: var(--azul-claro);
+    }
+
+
+    /* SEÇÃO: FUNCIONALIDADES */
+    .funcionalidade-item:hover {
+      background-color: var(--cinza-fundo);
+    }
+
+
+    /* FOOTER */
+    .footer-coluna ul li a:hover {
+      color: var(--branco);
+    }
