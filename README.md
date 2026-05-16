@@ -1,6 +1,6 @@
 <!-- ## DESENVOLVIDO POR INOVA X:
 integrantes: Bruno Araujo Castro (RM: 572723), João Pedro De Souza (RM: 571437), Arthur Germano Pinheiro (RM: 574042) e Artur Novazzi (RM: 572624) -->
-# 📸 Jovi Vision Core
+## 📸 Jovi Vision Core
 
 
 > A câmera inteligente que estudantes merecem
