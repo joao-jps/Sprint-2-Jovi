@@ -1,11 +1,305 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint 2 Jovi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jovi Vision Core</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./Src/Assets/CSS/style.css">
 </head>
+
 <body>
-    
+
+  <!-- ===========================
+       HEADER
+  =========================== -->
+  <header>
+    <nav>
+      <div class="logo">Jovi    <span>Vision Core</span></div>
+
+      <ul class="nav-links">
+        <li><a href="#problema">O Problema</a></li>
+        <li><a href="#funcionalidades">Funcionalidades</a></li>
+        <li><a href="#usos">Usos</a></li>
+      </ul>
+
+      <a href="#funcionalidades" class="btn-nav">Ver protótipo</a>
+    </nav>
+  </header>
+
+
+  <!-- ===========================
+       MAIN
+  =========================== -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-conteudo">
+
+        <div class="hero-texto">
+          <span class="hero-tag">Protótipo Jovi · Câmera Inteligente</span>
+          <h1>A câmera que <em>estudantes</em> merecem.</h1>
+          <p>Qualidade profissional de imagem para anotações, apresentações e conexões sociais — direto no seu celular.</p>
+          <div class="hero-botoes">
+            <a href="#funcionalidades" class="btn-principal">Ver funcionalidades</a>
+            <a href="#usos" class="btn-secundario">Casos de uso</a>
+          </div>
+        </div>
+
+        <div class="hero-imagem">
+          <div class="celular">
+            <div class="celular-topo">
+              <span>AI FOCUS</span>
+              <span>48MP</span>
+              <span>HDR</span>
+            </div>
+            <div class="viewfinder">
+              <div class="foco"></div>
+            </div>
+            <div class="celular-base">
+              <div class="icone-cam"></div>
+              <div class="botao-foto"></div>
+              <div class="icone-cam"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- PROBLEMAS -->
+    <section class="secao-problema" id="problema">
+
+      <div class="secao-titulo">
+        <span class="label">A dor identificada</span>
+        <h2>Câmeras comuns falham onde estudantes mais precisam.</h2>
+        <p>A Jovi identificou que os smartphones atuais não atendem às necessidades reais do dia a dia acadêmico.</p>
+      </div>
+
+      <div class="grade-cards">
+
+        <article class="card">
+          <div class="card-icone"></div>
+          <h3>Fotos de quadro ilegíveis</h3>
+          <p>A resolução insuficiente e o foco lento tornam impossível capturar anotações do quadro com clareza de leitura.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icone"></div>
+          <h3>Baixo desempenho com pouca luz</h3>
+          <p>Salas com iluminação irregular resultam em fotos granuladas que não servem para revisão posterior.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icone"></div>
+          <h3>Digitalização de documentos precária</h3>
+          <p>Fotografar livros e provas gera imagens distorcidas e com reflexo, comprometendo o estudo digital.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icone"></div>
+          <h3>Câmera frontal inadequada</h3>
+          <p>Videochamadas de estudo e apresentações remotas sofrem com qualidade de imagem abaixo do esperado.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icone"></div>
+          <h3>Zoom que destrói o detalhe</h3>
+          <p>Ampliar fórmulas ou experimentos em aula resulta em imagens pixeladas sem uso prático para revisão.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icone"></div>
+          <h3>Cor e contraste inconsistentes</h3>
+          <p>Gráficos e mapas conceituais perdem informação crítica quando fotografados com câmeras de baixo padrão.</p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- FUNCIONALIDADES -->
+    <section class="secao-funcionalidades" id="funcionalidades">
+
+      <div class="secao-titulo">
+        <span class="label">Solução JoviVisionCore</span>
+        <h2>Tecnologia pensada para melhoria acadêmica.</h2>
+      </div>
+
+      <div class="funcionalidades-conteudo">
+
+        <div class="lista-funcionalidades">
+
+          <div class="funcionalidade-item">
+            <div class="numero">01</div>
+            <div>
+              <h4>Modo Documento Inteligente</h4>
+              <p>Reconhece quadros e folhas automaticamente, ajusta perspectiva e entrega imagem plana e legível sem edição manual.</p>
+            </div>
+          </div>
+
+          <div class="funcionalidade-item">
+            <div class="numero">02</div>
+            <div>
+              <h4>IA de Foco em Texto</h4>
+              <p>Algoritmo que prioriza nitidez em caracteres escritos, garantindo que cada letra fique legível mesmo em fotos rápidas ou de baixa qualidade.</p>
+            </div>
+          </div>
+
+          <div class="funcionalidade-item">
+            <div class="numero">03</div>
+            <div>
+                 <h4>Zoom Melhorado</h4>
+              <p>Aproximação real aprimorada com IA. Detalhes de quadros distantes permanecem nítidos.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <aside class="card-specs">
+          <h3>Visualizações do protótipo</h3>
+            <img src="./Src/Assets/imgs/prototipo.png" alt="">
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+
+    <!-- ESTATÍSTICAS -->
+    <section class="secao-stats">
+      <div class="stats-linha">
+
+        <div class="stat-item">
+          <p class="stat-numero">48<span>MP</span></p>
+          <p class="stat-descricao">Sensor principal</p>
+        </div>
+
+        <div class="stat-item">
+          <p class="stat-numero">3<span>×</span></p>
+          <p class="stat-descricao">Zoom óptico real</p>
+        </div>
+
+        <div class="stat-item">
+          <p class="stat-numero">96<span>%</span></p>
+          <p class="stat-descricao">Nitidez em texto</p>
+        </div>
+
+        <div class="stat-item">
+          <p class="stat-numero">16<span>MP</span></p>
+          <p class="stat-descricao">Câmera frontal</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CASOS DE USO -->
+    <section class="secao-usos" id="usos">
+
+      <div class="secao-titulo">
+        <span class="label">Casos de uso</span>
+        <h2>Para estudar. Para conectar. Para criar.</h2>
+        <p>CamFocus foi projetada para dois universos que se complementam: o acadêmico e o social.</p>
+      </div>
+
+      <div class="usos-conteudo">
+
+        <article class="uso-bloco">
+          <div class="uso-icone"></div>
+          <h3>Estudo e Pesquisa</h3>
+          <p>Do quadro da sala ao experimento de laboratório — nenhuma informação se perde por culpa da câmera.</p>
+          <ul class="uso-lista">
+            <li>Fotografe quadros com nitidez total, mesmo de longe</li>
+            <li>Digitalize livros e provas com correção automática de perspectiva</li>
+            <li>Registre experimentos com zoom óptico real</li>
+            <li>Faça anotações visuais em ambientes com pouca luz</li>
+          </ul>
+        </article>
+
+        <article class="uso-bloco">
+          <div class="uso-icone">   </div>
+          <h3>Vida Social</h3>
+          <p>A vida de estudante é feita de conexões e memórias. CamFocus eleva cada registro a um novo patamar.</p>
+          <ul class="uso-lista">
+            <li>Câmera frontal HD para videochamadas e conteúdo de qualidade</li>
+            <li>Retratos naturais com desfoque de fundo por IA</li>
+            <li>Capturas noturnas sem granulação excessiva</li>
+            <li>Vídeo estabilizado para reels e apresentações criativas</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+
+
+
+
+    <!-- CTA FINAL -->
+    <section class="secao-cta">
+      <h2>Pronto para capturar seu potencial?</h2>
+      <p>CamFocus redefine o que uma câmera de smartphone pode fazer pelo estudante moderno. Tecnologia séria, feita para quem estuda de verdade.</p>
+      <div class="cta-botoes">
+        <a href="#funcionalidades" class="btn-principal">Explorar funcionalidades</a>
+        <a href="#problema" class="btn-secundario">Entender o problema</a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ===========================
+       FOOTER
+  =========================== -->
+  <footer>
+    <div class="footer-conteudo">
+
+      <div class="footer-marca">
+        <div class="logo">Jovi<span>Vision Core</span></div>
+        <p style="font-size: 18px; font-weight: bold;" >Protótipo desenvolvido para melhora cotidiana das câmeras para fins de uso acadêmico e social.</p>
+      </div>
+
+      <div class="footer-coluna">
+        <h5>Produto</h5>
+        <ul>
+          <li><a href="#funcionalidades">Funcionalidades</a></li>
+          <li><a href="#usos">Casos de Uso</a></li>
+          <li><a href="#problema">O Problema</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h5>Câmera</h5>
+        <ul>
+          <li><a href="#">Sensor Principal</a></li>
+          <li><a href="#">IA e Processamento</a></li>
+          <li><a href="#">Câmera Frontal</a></li>
+          <li><a href="#">Modos Especiais</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h5>Projeto</h5>
+        <ul>
+          <li><a href="#">Pesquisa</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-rodape">
+      <p>© 2026 CamFocus · Protótipo de inovação</p>
+      <p style="font-size: 14px;">By: Inova X</p>
+    </div>
+  </footer>
+
 </body>
 </html>
