@@ -1,6 +1,6 @@
 function validacao(){
     
-    let usuarioCorreto = "admin"
+    let usuarioCorreto = 'admin'
     let senhaCorreta = "123456"
     let acessoPermitido = false
 
@@ -27,7 +27,7 @@ function validacao(){
 }
 
 
-function formulario(){
+function avaliacao(){
 
     console.log("FORMULARIO DE AVALIACAO")
     
@@ -35,7 +35,7 @@ function formulario(){
 
     if (nome === null || nome === ""){
         
-        alert("Formulario cancelado!")
+        alert("Avaliação cancelada!")
         return
     }
 
@@ -43,7 +43,7 @@ function formulario(){
 
     if (nota === null){
         
-        alert("Formulario cancelado!")
+        alert("Avaliação cancelada!")
         return
     }
 
@@ -57,7 +57,7 @@ function formulario(){
 
     if (gostou === null || gostou === ""){
         
-        alert("Formulario cancelado!")
+        alert("Avaliação cancelada!")
         return
     }
 
@@ -65,7 +65,7 @@ function formulario(){
 
     if (melhoria === null || melhoria === ""){
         
-        alert("Formulario cancelado!")
+        alert("Avaliação cancelada!")
         return
     }
 
@@ -75,7 +75,7 @@ function formulario(){
 
     if (recomendaria === null || recomendaria === ""){
         
-        alert("Formulario cancelado!")
+        alert("Avaliação cancelada!")
         return
     }
 
